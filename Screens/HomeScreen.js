@@ -74,14 +74,6 @@ export default function HomeScreen({ route }) {
     if (weatherData) {
       setWeather(weatherData);
     }
-
-    {
-      //const { weatherData } = route.params;
-      /*useEffect(() => {
-        // When the component mounts, set the weather data from the passed parameter
-        setWeather(weatherData);
-      }, [weatherData]);*/
-    }
   };
 
   const [loading, setLoading] = useState(true);
